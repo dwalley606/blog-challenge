@@ -1,5 +1,28 @@
 .navbar {
     display: flex;
-    width: 100%;
+    flex-direction: row;
+    justify-content: flex-end;
+    padding: 10px;
+    min-height: 80px;
+    border-bottom: 5px solid black;
     
 }
+
+.pic-frame {
+    position: relative;
+    background-image: url('../images/20221018_130206.jpg');
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+}
+
+.pic-frame::after {
+    content: "My First Blog";
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    color: white;
+    font-size: 30px;
+    text-align: center;
+}
+
