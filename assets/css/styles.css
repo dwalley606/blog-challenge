@@ -8,12 +8,20 @@
     
 }
 
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
 .pic-frame {
     position: relative;
     background-image: url('../images/20221018_130206.jpg');
     background-size: cover;
     background-position: center;
-    height: 500px;
+    height: 600px;
+    padding: 10px;
+    border-right: 5px solid black;
+    width: 50%;
 }
 
 .pic-frame::after {
@@ -26,3 +34,20 @@
     text-align: center;
 }
 
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label {
+    margin-bottom: 5px;
+}
+
+.form input, .form textarea {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
