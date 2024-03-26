@@ -1,0 +1,58 @@
+.content {
+    display: flex;
+    flex-direction: row;
+}
+
+.pic-frame {
+    background-image: url('../images/20221018_130206.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 500px;
+    padding: 10px;
+    border-right: 5px solid black;
+    width: 100%;
+}
+
+.pic-frame h2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    font-size: 3rem;
+    color: beige;
+}
+
+.form {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+.form label {
+    margin-bottom: 5px;
+}
+
+.form input, .form textarea {
+    width: 80%;
+    padding: 5px;
+    margin-bottom: 10px;
+}
+
+.form form {
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 100%;
+    align-content: center;
+
+}
+
+.form form #form-button {
+    width: 82%;
+}
