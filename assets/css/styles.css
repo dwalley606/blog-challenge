@@ -1,3 +1,9 @@
+.header {
+    display: flex;
+    max-height: 50px;
+
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -9,11 +15,28 @@
 }
 
 .navbar #blog-title {
-    order: 1;
+    margin-right: auto;
 }
 
 .navbar button {
     margin-left: auto;
+}
+
+body.dark-mode {
+    background-color: #333;
+    color: #fff;
+}
+
+body.dark-mode .card {
+    border-color: white;
+}
+
+body.dark-mode .navbar {
+    border-color: white;
+}
+
+body.dark-mode .pic-frame {
+    border-color: white;
 }
 
 
